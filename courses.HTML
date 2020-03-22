@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+       <title> final checkpoint</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet"  href="style\style.css">
+       
+       <link rel="icon"  href="res\logo.png">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="jquery-3.4.1.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+ <!------------------> 
+
+
+</head>
+
+<body>
+     
+<center> 
+
+<a class="first" href="index.html" >  HOME </a> 
+<a class="first" href="courses.html" > COURSES </a>
+<a class="first" href="contact.html" > CONTACT </a>
+</center>
+
+<br/><br/><br/>
+
+	<div class="titre"> 	</div>	
+	<h1 class="ombre"> COURSES </h1>	
+	
+
+
+<!-- jQuery Modal -->
+<div id="ex1" class="modal">
+  <p style="color: black"> This is GoMyCode Track. </p>
+<p style="color: black"> Each track has its own goal. </p>
+<p style="color: black"> By adopting this track, you chose your own goal. </p>
+  <!--a href="#" rel="modal:close">Close</a-->
+</div>
+<!------------------>
+
+<center>
+<div class="course1">
+    <button class="boutton1"> <a href="#ex1" rel="modal:open">View more</a> </button>
+</div>
+
+<div class="course2">
+    <button class="boutton2"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+
+<div class="course3">
+    <button class="boutton3"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+<br>
+<div class="course4">
+    <button class="boutton4"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+
+<div class="course5">
+    <button class="boutton5"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+
+<div class="course6">
+    <button class="boutton6"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+<br>
+<div class="course7">
+    <button class="boutton7"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+
+<div class="course8">
+    <button class="boutton8"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+
+<div class="course9">
+    <button class="boutton9"><a href="#ex1" rel="modal:open">View more</a></button>
+</div>
+
+
+</center>
+
+<center>
+<h1> 
+Feedback
+</h1>
+</center>
+
+
+<center>
+	<!-- onclick="window.location.href = '#text';"
+	<button onclick="window.location.href = '#text';"> B </button>
+		-->
+	<button onclick="gras()"> B </button>
+	<button onclick="italique()"> I </button>
+	<button onclick="souligner()"> Underline </button>
+
+	<select id="myselect" onchange="fcttaille()">
+		<option value="20px">20px</option>
+		<option value="30px">30px</option>
+		<option value="40px">40px</option>
+	</select>
+
+	
+	<select id="myselect2" onchange="forme()">
+		<option value="arial"> Arial </option>
+		<option value="verdana"> Verdana </option>
+		<option value="geneva"> Geneva </option>
+	</select>
+</center>
+
+
+<br/>
+<center>
+	<textarea id="feedback" cols="80" row=" 1">   </textarea>
+</center>
+
+
+
+
+</body>
+<script src="js\main.js"></script>
+</html>
